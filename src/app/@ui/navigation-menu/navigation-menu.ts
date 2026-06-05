@@ -47,7 +47,7 @@ import {
           @for (item of navLinks(); track $index) {
             <li
               ngpNavigationMenuItem
-              class="text-olive-50 hover:text-olive-200 text-xs font-light uppercase hover:scale-105 transition-all duration-300"
+              class="text-olive-50 hover:text-olive-200 text-md font-light uppercase hover:scale-105 transition-all duration-300"
             >
               <a
                 ngpNavigationMenuLink
@@ -98,7 +98,7 @@ import {
             @for (item of navLinks(); track $index) {
               <li
                 ngpNavigationMenuItem
-                class="text-olive-50 hover:text-olive-200 text-xs font-light uppercase hover:scale-105 transition-all duration-300"
+                class="text-olive-50 hover:text-olive-200 text-md font-light uppercase hover:scale-105 transition-all duration-300"
               >
                 <a
                   ngpNavigationMenuLink
