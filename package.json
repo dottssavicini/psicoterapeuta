@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:dottoressavicini": "node dist/dottoressavicini/server/server.mjs",
-    "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/dottoressavicini/browser"
+    "deploy": "npx angular-cli-ghpages --dir=dist/dottoressavicini/browser"
   },
   "private": true,
   "packageManager": "npm@11.9.0",
